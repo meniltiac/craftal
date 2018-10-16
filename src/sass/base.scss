@@ -7,6 +7,7 @@ body {
     background: black;
     margin: 0;
     padding: 0;
+    position: relative;
 }
 
 h1 {
@@ -16,6 +17,8 @@ h1 {
     padding: 0 30px;
     margin-bottom: 0;
     margin-top: 0;
+    position: relative;
+    z-index: 1;
 
     &.robot {
         font-family: 'Press Start 2P', sans-serif;
@@ -28,6 +31,7 @@ h1 {
 h2 {
     font-size: 2em;
     text-align: center;
+    z-index: 1;
 
     span {
         color: #ff5500;
@@ -44,6 +48,7 @@ h2 {
     background: black;
     color: white;
     box-sizing: border-box;
+    position: relative;
 
     &:nth-of-type(2n) {
         background: white;
@@ -51,7 +56,6 @@ h2 {
     }
 
     &.about {
-        position: relative;
 
         h1 {
             position: absolute;
