@@ -2,7 +2,7 @@ import React from "react"
 import Button from "./button"
 
 export default () =>
-<div className="craftal container">
+<div className="craftal row">
     <h1 className="robot">
         Craftal
     </h1>

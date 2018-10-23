@@ -2,7 +2,7 @@ import React from "react"
 import Button from "./button"
 
 export default () =>
-<div className="voice container">
+<div className="voice row">
     <h1>
         Voice
     </h1>

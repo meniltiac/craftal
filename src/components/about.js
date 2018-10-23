@@ -2,7 +2,7 @@ import React from "react"
 import Fractal from "./fractal"
 
 export default props => (
-  <div className="about container">
+  <div className="about row">
       <Fractal />
       <h1>
           {props.headerText}

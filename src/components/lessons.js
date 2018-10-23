@@ -2,7 +2,7 @@ import React from "react"
 import Button from "./button"
 
 export default () =>
-<div className="lessons container">
+<div className="lessons row">
     <h1>
         Lessons
     </h1>

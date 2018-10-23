@@ -9,7 +9,7 @@ import Voice from "./voice"
 import Contact from "./contact"
 
 export default () =>
-<div>
+<div className="container">
     <Helmet
         key="app-head"
         titleTemplate="Ian McKenna | Craftal"

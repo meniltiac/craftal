@@ -85,6 +85,11 @@ p {
 }
 
 .container {
+    width: 100vw;
+    overflow: hidden;
+}
+
+.row {
     min-width: 100vw;
     background: black;
     color: #efefef;
@@ -94,6 +99,10 @@ p {
 
     &:first-of-type {
         height: 100vh;
+
+        @media(max-width: 768px) {
+            max-height: 800px;
+        }
     }
 
     &:nth-of-type(2n) {
@@ -108,7 +117,8 @@ p {
     }
 
     @media(max-width: 768px) {
-        min-height: 350px;
+        max-height: 800px;
+        height: 100vh;
     }
 
     &.about {
@@ -179,7 +189,7 @@ iframe {
       -webkit-animation-timing-function: cubic-bezier(0.82, 0.24, 0.25, 0.75);
       -webkit-box-shadow:inset 0 0 10px rgba(255,255,255,0.3);
     }
-    
+
     .layer1 *,
     .layer2 * {
         display:-webkit-box;
