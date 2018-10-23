@@ -167,6 +167,13 @@ iframe {
     width:80vw;
     height:80vw;
 
+    @media(max-width: 768px){
+        right: -60vw;
+        top: -60vw;
+        width:120vw;
+        height:120vw;
+    }
+
     .layer1,
     .layer2 {
     position:absolute;
