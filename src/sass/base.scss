@@ -101,7 +101,7 @@ p {
         height: 100vh;
 
         @media(max-width: 768px) {
-            max-height: 800px;
+            max-height: 600px;
         }
     }
 
@@ -117,8 +117,7 @@ p {
     }
 
     @media(max-width: 768px) {
-        max-height: 800px;
-        height: 100vh;
+        height: auto;
     }
 
     &.about {
