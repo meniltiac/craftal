@@ -1,4 +1,5 @@
 import React from "react"
+import Button from "./button"
 
 export default () =>
 <div className="craftal container">
@@ -6,8 +7,15 @@ export default () =>
         Craftal
     </h1>
     <h2>
-        Psycho-<span>neuro</span> frontiersman of <span>glitch</span>.
+        The <span>sound</span> of <span>cyberfunk</span>.
     </h2>
+    <p>
+        Craftal lets computers articulate
+        themselves through wiggling air molecules to groovy beats. He combines
+        influences from the Glitch, Neuro, and Psy styles of dance music with
+        bouncy melodic structures and rhythmic complexity to create his sound.
+    </p>
+    <Button btnText="Book Craftal" btnSubject="Booking" />
     <iframe
         width="40%"
         height="400"
